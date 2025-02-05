@@ -3,7 +3,7 @@
   "manifest_version": 3,
   "name": "Top Trending Coins",
   "version": "2.01",
-  "description": "Displays the top 5 trending coins from CoinGecko",
+  "description": "Displays the top 5 trending coins currently on the solana blockchain",
   "permissions": ["activeTab"],
   "action": {
     "default_popup": "popup.html",
