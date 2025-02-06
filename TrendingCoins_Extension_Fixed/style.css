@@ -1,18 +1,25 @@
-
-body {
-  font-family: Arial, sans-serif;
-  padding: 10px;
-}
-
-h1 {
-  font-size: 18px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 10px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solana Trending Coins</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Trending Solana Coins</h1>
+        </header>
+        <main>
+            <section id="coin-container">
+                <ul id="coin-list" class="coin-list"></ul>
+            </section>
+        </main>
+        <footer>
+            <p>Data provided by <a href="https://www.coingecko.com/" target="_blank">CoinGecko</a></p>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
